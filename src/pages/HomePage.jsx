@@ -3,13 +3,13 @@ import Header from "../components/Header";
 import Card from "../components/Card";
 import Footer from "../components/Footer";
 import ImagePage from "../components/ImagePage";
-import homeImage from "../images/card.png"
+import CardImage from "../images/Card.png"
 const HomePage = () => {
   return (
     <div>
       <Header />
       <Card
-        imageSrc={homeImage}
+        imageSrc={CardImage}
         title="Join Our Telegram Channel"
         subtitle="All Loss Recover Guarantee"
         buttonText="Join Now"
