@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import Card from "../components/Card";
 import Footer from "../components/Footer";
 import BoxesGrid from "../components/BoxesGrid";
-import homeImage from "../images/card.png"
+import homeImage from "../images/Card.png";
 const ColorPage = () => {
   const colorItems = [
     { text: "Tringa Game Hack", link: "https://m.indiamart.com/proddetail/24213035862.html?utm_source=unknown_patel_85&utm_medium=affiliate&utm_campaign=0125&utm_content=12 " },
