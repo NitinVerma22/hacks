@@ -4,6 +4,7 @@ import Card from "../components/Card";
 import Footer from "../components/Footer";
 import BoxesGrid from "../components/BoxesGrid";
 import homeImage from "../images/Card.png";
+import AdScript from "../components/AdScript";
 const ColorPage = () => {
   const colorItems = [
     { text: "Tringa Game Hack", link: "https://m.indiamart.com/proddetail/24213035862.html?utm_source=unknown_patel_85&utm_medium=affiliate&utm_campaign=0125&utm_content=12 " },
@@ -25,6 +26,7 @@ const ColorPage = () => {
         buttonLink="https://t.me/colorpredictionbyhackmods"
       />
       <BoxesGrid items={colorItems} />
+  <AdScript></AdScript>
       <Footer />
     </div>
   );

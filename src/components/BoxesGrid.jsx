@@ -2,6 +2,7 @@ import React from "react";
 
 const BoxesGrid = ({ items }) => {
   return (
+    <>
     <div className="md:hidden grid grid-cols-1 gap-6 p-6 w-4/5 mx-auto">
       {items.map((item, index) => (
         <a
@@ -15,6 +16,8 @@ const BoxesGrid = ({ items }) => {
         </a>
       ))}
     </div>
+
+    </>
   );
 };
 
