@@ -6,10 +6,12 @@ import ImagePage from "../components/ImagePage";
 import CardImage from "../images/Card.png"
 import AdsterraAd from "../components/AdsteraAds";
 import PopulenserAd from "../components/PopulenserAd";
+import AdScript from "../components/AdScript";
 const HomePage = () => {
   return (
     <div>
       <Header />
+      <AdsterraAd></AdsterraAd>
       <Card
         imageSrc={CardImage}
         title="Join Our Telegram Channel"
@@ -17,12 +19,12 @@ const HomePage = () => {
         buttonText="Join Now"
         buttonLink="https://t.me/colorpredictionbyhackmods"
       />
-      <script async="async" data-cfasync="false" src="//pl25637724.profitablecpmrate.com/97614b6515575f415fce0392756b10a0/invoke.js"></script>
-      <div id="container-97614b6515575f415fce0392756b10a0"></div>
-      <PopulenserAd></PopulenserAd>
-      <AdsterraAd></AdsterraAd>
+     
+    
+      
       <ImagePage />
-      <AdsterraAd></AdsterraAd>
+      <PopulenserAd></PopulenserAd>
+   
       <Footer />
     </div>
   );

@@ -4,6 +4,7 @@ import Card from "../components/Card";
 import Footer from "../components/Footer";
 import BoxesGrid from "../components/BoxesGrid";
 import homeImage from "../images/aviator.jpeg"
+import PopulenserAd from "../components/PopulenserAd";
 const OtherPage = () => {
   const colorItems = [
     { text: "Aviator Hack", link: " https://m.indiamart.com/proddetail/2853320615248.html?utm_source=unknown_patel_85&utm_medium=affiliate&utm_campaign=0125&utm_content=19" },
@@ -25,6 +26,7 @@ const OtherPage = () => {
         buttonLink="https://t.me/colorpredictionbyhackmods"
       />
       <BoxesGrid items={colorItems} />
+      <PopulenserAd></PopulenserAd>
       <Footer />
     </div>
   );

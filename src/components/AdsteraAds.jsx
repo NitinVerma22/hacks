@@ -1,28 +1,45 @@
 import { useEffect } from "react";
 
-const AdsterraAd = () => {
+const AdsterraAds = () => {
   useEffect(() => {
-    // Create the script element
-    const script = document.createElement("script");
-    script.async = true;
-    script.setAttribute("data-cfasync", "false");
-    script.src = "//pl25637724.profitablecpmrate.com/97614b6515575f415fce0392756b10a0/invoke.js";
+    const script1 = document.createElement("script");
+    script1.type = "text/javascript";
+    script1.innerHTML = `
+      atOptions = {
+        'key' : '0253c488aa79d92cc26144988544f277',
+        'format' : 'iframe',
+        'height' : 250,
+        'width' : 300,
+        'params' : {}
+      };
+    `;
+    document.body.appendChild(script1);
 
-    // Append the script to the ad container
-    const adContainer = document.getElementById("adsterra-container");
-    if (adContainer) {
-      adContainer.appendChild(script);
-    }
+    const script2 = document.createElement("script");
+    script2.type = "text/javascript";
+    script2.src = "//www.highperformanceformat.com/0253c488aa79d92cc26144988544f277/invoke.js";
+    document.body.appendChild(script2);
 
-    // Cleanup function to remove the script when component unmounts
+    const script3 = document.createElement("script");
+    script3.type = "text/javascript";
+    script3.src = "//pl25649382.profitablecpmrate.com/d2/13/09/d213095ff9a042e2682788afdd5b5c4f.js";
+    document.body.appendChild(script3);
+
+    const script4 = document.createElement("script");
+    script4.async = true;
+    script4.dataset.cfasync = "false";
+    script4.src = "//pl25642399.profitablecpmrate.com/d26d8b91fe96e4663e17712e47fbf63b/invoke.js";
+    document.body.appendChild(script4);
+
     return () => {
-      if (adContainer) {
-        adContainer.innerHTML = "";
-      }
+      document.body.removeChild(script1);
+      document.body.removeChild(script2);
+      document.body.removeChild(script3);
+      document.body.removeChild(script4);
     };
   }, []);
 
-  return <div id="adsterra-container"></div>;
+  return <div id="ad-container"><div id="container-d26d8b91fe96e4663e17712e47fbf63b"></div></div>;
 };
 
-export default AdsterraAd;
+export default AdsterraAds;

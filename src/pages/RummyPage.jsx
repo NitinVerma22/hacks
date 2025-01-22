@@ -4,6 +4,7 @@ import Card from "../components/Card";
 import Footer from "../components/Footer";
 import BoxesGrid from "../components/BoxesGrid";
 import AviatorImage from "../images/teenpatti.jpeg"
+import AdsterraAds from "../components/AdsteraAds";
 const RummyPage = () => {
   const colorItems = [
     { text: "Dragon Vs Tiger Hack", link: " https://m.indiamart.com/proddetail/2853320615248.html?utm_source=unknown_patel_85&utm_medium=affiliate&utm_campaign=0125&utm_content=19" },
@@ -24,6 +25,7 @@ const RummyPage = () => {
         buttonText="Join Now"
         buttonLink="https://t.me/colorpredictionbyhackmods"
       />
+      <AdsterraAds></AdsterraAds>
       <BoxesGrid items={colorItems} />
       <Footer />
     </div>
